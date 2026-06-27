@@ -11,7 +11,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
           <div className="space-y-4">
-            <Logo variant="full" lang={i18n.language as "ar" | "en"} />
+            <Logo />
             <p className="text-navy-200 text-sm leading-relaxed">
               {i18n.language === "ar"
                 ? "المنصة الذكية العقارية — شريكك الموثوق في الاستثمار والتملك"

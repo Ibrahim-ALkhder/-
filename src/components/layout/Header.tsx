@@ -51,7 +51,7 @@ export default function Header() {
         )}
       >
         <div className="flex items-center gap-8">
-          <Logo dark={!scrolled} />
+          <Logo />
           <nav className="hidden lg:flex items-center gap-1">
             {navLinks.map((link) => (
               <Link
