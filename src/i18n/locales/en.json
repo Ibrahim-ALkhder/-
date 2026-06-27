@@ -147,6 +147,18 @@
       "planning": "Planning",
       "construction": "Under Construction",
       "completed": "Completed"
+    },
+    "detail": {
+      "title": "Project Details",
+      "notFound": "Project not found",
+      "backToProjects": "Back to Projects",
+      "overview": "Overview",
+      "location": "Location",
+      "developer": "Developer",
+      "startDate": "Start Date",
+      "expectedEndDate": "Expected End Date",
+      "units": "Units",
+      "completionPercentage": "Progress"
     }
   },
   "services": {

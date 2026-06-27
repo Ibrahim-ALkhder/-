@@ -25,6 +25,7 @@ export default function PropertyDetail() {
 
   const { data: response, isLoading } = useProperty(id || "")
   const { data: agentsData } = useAgents()
+  const [activeImage, setActiveImage] = useState(0)
   useEffect(() => {
     if (response?.data) {
       document.title = `${i18n.language === "ar" ? response.data.title : response.data.titleEn} | ${t("pages.home.title")}`
@@ -73,7 +74,6 @@ export default function PropertyDetail() {
   const similar = similarData?.data?.filter((p) => p.id !== property.id).slice(0, 3) || []
   const currentUrl = typeof window !== "undefined" ? window.location.href : ""
   const images = property.images?.length ? property.images.slice(0, 4) : []
-  const [activeImage, setActiveImage] = useState(0)
 
   return (
     <div className="pt-20 min-h-screen bg-[#FDFBF7]">

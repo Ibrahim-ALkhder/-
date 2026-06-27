@@ -1,4 +1,5 @@
 import { useEffect } from "react"
+import { Link } from "react-router-dom"
 import { useTranslation } from "react-i18next"
 import { motion } from "framer-motion"
 import { useProjects } from "@/hooks/useProjects"
@@ -47,6 +48,7 @@ export default function Projects() {
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.6, delay: i * 0.08, ease: [0.16, 1, 0.3, 1] }}
             >
+              <Link to={`/project/${project.id}`}>
               <Card hover className="cursor-pointer">
                 <div className="aspect-[16/9] relative overflow-hidden bg-navy-100">
                   {project.images?.[0] ? (
@@ -72,6 +74,7 @@ export default function Projects() {
                   </div>
                 </div>
               </Card>
+              </Link>
             </motion.div>
           ))}
         </div>

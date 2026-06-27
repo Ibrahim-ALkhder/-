@@ -147,6 +147,18 @@
       "planning": "تخطيط",
       "construction": "قيد الإنشاء",
       "completed": "مكتمل"
+    },
+    "detail": {
+      "title": "تفاصيل المشروع",
+      "notFound": "المشروع غير موجود",
+      "backToProjects": "العودة للمشاريع",
+      "overview": "نظرة عامة",
+      "location": "الموقع",
+      "developer": "المطور",
+      "startDate": "تاريخ البداية",
+      "expectedEndDate": "تاريخ التسليم المتوقع",
+      "units": "الوحدات",
+      "completionPercentage": "نسبة الإنجاز"
     }
   },
   "services": {

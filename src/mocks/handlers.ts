@@ -79,6 +79,13 @@ export const handlers = [
     return HttpResponse.json({ data: projects })
   }),
 
+  http.get('/api/projects/:id', async ({ params }) => {
+    await delay(200)
+    const project = projects.find(p => p.id === params.id)
+    if (!project) return new HttpResponse(null, { status: 404 })
+    return HttpResponse.json({ data: project })
+  }),
+
   http.get('/api/agents', async () => {
     await delay(200)
     return HttpResponse.json({ data: agents })

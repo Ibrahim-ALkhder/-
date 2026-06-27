@@ -32,11 +32,7 @@ export default function Partners() {
         </motion.div>
 
         <div className="overflow-hidden mask-edges">
-          <motion.div
-            className="flex gap-8"
-            animate={{ x: ["0%", "-50%"] }}
-            transition={{ duration: 30, repeat: Infinity, ease: "linear" }}
-          >
+          <div className="flex gap-8 animate-marquee" style={{ width: "fit-content" }}>
             {[...partners, ...partners].map((name, i) => (
               <div
                 key={`${name}-${i}`}
@@ -45,7 +41,7 @@ export default function Partners() {
                 <span className="font-cairo font-bold text-navy-400 text-sm whitespace-nowrap">{name}</span>
               </div>
             ))}
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>
