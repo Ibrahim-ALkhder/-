@@ -1,0 +1,300 @@
+﻿{
+  "nav": {
+    "home": "Home",
+    "properties": "Properties",
+    "projects": "Projects",
+    "services": "Services",
+    "about": "About Us",
+    "blog": "Blog",
+    "contact": "Contact Us"
+  },
+  "home": {
+    "hero": {
+      "tagline": "Your Trusted Partner in Ownership & Investment",
+      "title": "Your Smart Real Estate Platform in the Kingdom",
+      "subtitle": "More than just a real estate platform — your trusted partner in investment and ownership"
+    },
+    "search": {
+      "city": "City",
+      "type": "Property Type",
+      "placeholder": "Search for a property, area, or project...",
+      "all": "All",
+      "cta": "Search"
+    },
+    "featured": {
+      "section": "Featured Properties",
+      "title": "Latest Available Properties",
+      "subtitle": "Browse the latest properties added to our platform",
+      "viewAll": "View All"
+    },
+    "stats": {
+      "properties": "Properties",
+      "clients": "Happy Clients",
+      "experience": "Years Experience",
+      "growth": "Annual Growth"
+    },
+    "services": {
+      "section": "Our Services",
+      "title": "Our Integrated Services",
+      "subtitle": "We offer a comprehensive range of real estate services to suit your needs",
+      "items": {
+        "buySell": {
+          "title": "Buy & Sell Properties",
+          "desc": "We help you buy and sell properties at the best prices with the highest standards of transparency"
+        },
+        "management": {
+          "title": "Property Management",
+          "desc": "Integrated management services for your properties including maintenance, leasing, and tenant follow-up"
+        },
+        "valuation": {
+          "title": "Property Valuation",
+          "desc": "Accurate property valuation according to the latest standards and methodologies"
+        },
+        "consulting": {
+          "title": "Investment Consulting",
+          "desc": "Tailored investment advice and solutions to maximize your real estate returns"
+        },
+        "marketing": {
+          "title": "Real Estate Marketing",
+          "desc": "Integrated marketing campaigns for properties using the latest digital marketing tools"
+        },
+        "support": {
+          "title": "24/7 Support",
+          "desc": "Round-the-clock support team available to answer your inquiries and help you"
+        }
+      }
+    },
+    "testimonials": {
+      "section": "Testimonials",
+      "title": "What Our Clients Say",
+      "subtitle": "We pride ourselves on our clients' trust and always strive to deliver the best",
+      "viewAll": "View All Testimonials"
+    },
+    "partners": {
+      "title": "Our Partners",
+      "subtitle": "We are proud to collaborate with the leading real estate companies in the Kingdom"
+    },
+    "cta": {
+      "title": "Get Ready to Own Your Dream Property",
+      "subtitle": "Our team is ready to help you every step of the way",
+      "button": "Contact Us Now"
+    }
+  },
+  "property": {
+    "status": {
+      "for-sale": "For Sale",
+      "for-rent": "For Rent"
+    },
+    "types": {
+      "villa": "Villa",
+      "apartment": "Apartment",
+      "commercial": "Commercial",
+      "land": "Land",
+      "warehouse": "Warehouse",
+      "all": "All",
+      "duplex": "Duplex",
+      "office": "Office"
+    },
+    "image": "Property Image",
+    "noImages": "No images available",
+    "featured": "Featured",
+    "beds": "Beds",
+    "baths": "Baths",
+    "description": "Description",
+    "features": "Features",
+    "details": "Property Details",
+    "price": "Price",
+    "area": "Area",
+    "floor": "Floor",
+    "year": "Year Built",
+    "condition": "Condition",
+    "nearby": "Nearby Services",
+    "agent": "Property Agent",
+    "booking": "Book a Visit",
+    "bookingForm": {
+      "name": "Full Name",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "message": "Your Message",
+      "submit": "Send Request"
+    },
+    "contactForDetails": "Contact for details",
+    "callAgent": "Call Agent",
+    "share": "Share",
+    "qrCode": "QR Code",
+    "similar": "Similar Properties",
+    "notFound": "Property Not Found",
+    "backToProperties": "Back to Properties",
+    "new": "New",
+    "used": "Used",
+    "underConstruction": "Under Construction",
+    "forSale": "For Sale",
+    "forRent": "For Rent",
+    "villa": "Villa",
+    "apartment": "Apartment",
+    "commercial": "Commercial",
+    "land": "Land",
+    "warehouse": "Warehouse"
+  },
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "Browse the latest real estate projects in the Kingdom"
+  },
+  "project": {
+    "image": "Project Image",
+    "units": "Units",
+    "status": {
+      "planning": "Planning",
+      "construction": "Under Construction",
+      "completed": "Completed"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "We offer a comprehensive range of real estate services",
+    "learnMore": "Learn More",
+    "items": {
+      "buySell": {
+        "title": "Buy & Sell Properties",
+        "desc": "We help you buy and sell properties at the best prices"
+      },
+      "management": {
+        "title": "Property Management",
+        "desc": "Integrated management services for your properties"
+      },
+      "valuation": {
+        "title": "Property Valuation",
+        "desc": "Accurate property valuation with high precision"
+      },
+      "consulting": {
+        "title": "Investment Consulting",
+        "desc": "Investment advice to maximize your returns"
+      },
+      "marketing": {
+        "title": "Real Estate Marketing",
+        "desc": "Integrated marketing campaigns for properties"
+      },
+      "support": {
+        "title": "24/7 Support",
+        "desc": "Round-the-clock support for your inquiries"
+      }
+    }
+  },
+  "about": {
+    "title": "About Smart Podium",
+    "subtitle": "Towards a better future in real estate ownership and investment",
+    "image": "Platform Image",
+    "story": "Our Story",
+    "storyTitle": "Your Trusted Partner Since 2010",
+    "storyDesc": "Smart Podium is one of the leading real estate brokerage and marketing companies in Saudi Arabia. Founded with the aim of providing distinguished real estate services that combine expertise and technology.",
+    "storyDesc2": "We pride ourselves on our specialized team of consultants and experts, always striving to provide the best solutions that meet our clients' aspirations.",
+    "team": "Our Team",
+    "yearsExp": "Years Exp",
+    "listings": "Listings"
+  },
+  "blog": {
+    "title": "Real Estate Blog",
+    "subtitle": "Latest articles and news in the real estate world",
+    "image": "Article Image",
+    "minRead": "min read",
+    "notFound": "Article Not Found",
+    "backToBlog": "Back to Blog"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We are here to answer your inquiries and help you",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send",
+      "success": "Your message has been sent! We'll get back to you soon.",
+      "error": "Something went wrong. Please try again.",
+      "errors": {
+        "nameRequired": "Name is required",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Invalid email address",
+        "subjectRequired": "Subject is required",
+        "messageRequired": "Message is required"
+      }
+    },
+    "info": "Contact Information",
+    "address": "Address",
+    "phone": "Phone Number",
+    "email": "Email Address",
+    "hours": "Working Hours",
+    "map": "Site Map"
+  },
+  "properties": {
+    "title": "Properties",
+    "subtitle": "Browse the latest properties for sale and rent",
+    "filters": "Filters",
+    "sort": {
+      "newest": "Newest",
+      "priceAsc": "Price: Low to High",
+      "priceDesc": "Price: High to Low"
+    },
+    "mapPlaceholder": "Properties Map",
+    "city": "City",
+    "type": "Type",
+    "status": "Status",
+    "bedrooms": "Bedrooms",
+    "priceRange": "Price Range",
+    "under500k": "Under 500,000 SAR",
+    "500k_1m": "500,000 - 1,000,000 SAR",
+    "1m_2m": "1,000,000 - 2,000,000 SAR",
+    "2m_5m": "2,000,000 - 5,000,000 SAR",
+    "above5m": "Above 5,000,000 SAR"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, the page you are looking for is not available. The link may be broken or the page may have been moved.",
+    "cta": "Back to Home"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "noResults": "No results found",
+    "showMore": "Show More",
+    "showLess": "Show Less",
+    "back": "Back",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "clearAll": "Clear All",
+    "clear": "Clear",
+    "apply": "Apply",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "send": "Send",
+    "submit": "Submit",
+    "close": "Close",
+    "copyLink": "Copy Link",
+    "copied": "Copied!",
+    "download": "Download",
+    "pagination": "Pagination",
+    "whatsapp": "WhatsApp",
+    "favorite": "Favorites",
+    "compare": "Compare",
+    "addToFavorites": "Add to Favorites",
+    "removeFromFavorites": "Remove from Favorites",
+    "toggleFavorite": "Toggle Favorite",
+    "shareVia": "Share via",
+    "pageNotFound": "Page Not Found",
+    "backToHome": "Back to Home",
+    "allRights": "All rights reserved. Smart Podium"
+  },
+  "pages": {
+    "home": { "title": "Smart Podium" },
+    "properties": { "title": "Properties | Smart Podium" },
+    "propertyDetail": { "title": "Property Details | Smart Podium" },
+    "projects": { "title": "Projects | Smart Podium" },
+    "services": { "title": "Services | Smart Podium" },
+    "about": { "title": "About Us | Smart Podium" },
+    "blog": { "title": "Blog | Smart Podium" },
+    "blogPost": { "title": "Blog | Smart Podium" },
+    "contact": { "title": "Contact Us | Smart Podium" },
+    "notFound": { "title": "Page Not Found | Smart Podium" }
+  }
+}
