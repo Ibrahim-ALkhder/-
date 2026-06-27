@@ -13,10 +13,8 @@ const queryClient = new QueryClient({
 })
 
 async function startApp() {
-  if (import.meta.env.DEV) {
-    const { worker } = await import('./mocks/browser')
-    await worker.start({ onUnhandledRequest: 'bypass' })
-  }
+  const { worker } = await import('./mocks/browser')
+  await worker.start({ onUnhandledRequest: 'bypass' })
 
   ReactDOM.createRoot(document.getElementById('root')!).render(
     <React.StrictMode>
